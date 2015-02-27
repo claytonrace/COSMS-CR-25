@@ -1,4 +1,4 @@
-package abstract_homework;
+package bookhomework;
 
 public abstract class Book {
 	
@@ -57,5 +57,7 @@ public abstract class Book {
 	
 	
 	public abstract double getRetailPrice();
+	
+	public abstract String getInfo();
 
 }

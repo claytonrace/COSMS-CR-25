@@ -1,4 +1,4 @@
-package abstract_homework;
+package bookhomework;
 
 public class Textbook extends Book {
 	
@@ -18,12 +18,14 @@ public class Textbook extends Book {
 	}
 	
 	@Override
-	public double getRetailPrice()
-	{
+	public double getRetailPrice(){
 		double sales_price = getPrice() * 1.1;
 		return sales_price;
 	}
 
+	public String getInfo(){
+		return course_number;
+	}
 	public String getCourse_number() {
 		return course_number;
 	}
